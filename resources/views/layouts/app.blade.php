@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <style>
-
     .h1gradient {
         color: #111;
         font-family: 'Poppins', sans-serif;
@@ -92,6 +91,90 @@
         filter: grayscale(0%);
         transform: scale(1.5);
         transition: all 0.5s ease;
+    }
+
+
+    a>.dropdown-item::active,
+    a>.dropdown-item::selection,
+    a>.dropdown-item::before,
+    a>.dropdown-item::after,
+    a>.dropdown-item:hover {
+        background-color: 829199;
+    }
+
+
+    ::-moz-selection {
+        color: #fff;
+        background-color: #d3d3d3;
+    }
+
+    ::selection {
+        color: #fff;
+        background-color: #d3d3d3;
+    }
+
+    ::-moz-selection {
+        color: #fff;
+        background-color: #d3d3d3;
+    }
+
+
+
+    @media only screen and (max-width: 760px),
+    (min-device-width: 768px) and (max-device-width: 1024px) {
+
+        .h1gradient {
+            color: #111;
+            font-family: 'Poppins', sans-serif;
+            /* font-size: 275px; */
+            font-weight: bold;
+            letter-spacing: -1px;
+            line-height: 1;
+            text-align: center;
+            font-size: 60px;
+            background: linear-gradient(to right, #182128 10%, #264a4d 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+    }
+
+    @media only screen and (max-width: 348px),
+    (min-device-width: 348px) and (max-device-width: 455px) {
+
+        .h1gradient {
+            color: #111;
+            font-family: 'Poppins', sans-serif;
+            /* font-size: 275px; */
+            font-weight: bold;
+            letter-spacing: -1px;
+            line-height: 1;
+            text-align: center;
+            font-size: 40px;
+            background: linear-gradient(to right, #182128 10%, #264a4d 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+    }
+
+    @media only screen and (max-width: 255px),
+    (min-device-width: 255px) and (max-device-width: 455px) {
+
+        .h1gradient {
+            color: #111;
+            font-family: 'Poppins', sans-serif;
+            /* font-size: 275px; */
+            font-weight: bold;
+            letter-spacing: -1px;
+            line-height: 1;
+            text-align: center;
+            font-size: 35px;
+            background: linear-gradient(to right, #182128 10%, #264a4d 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
     }
 
     @media (min-width: 420px) {
@@ -216,6 +299,11 @@
 
     nav {
         background-color: #182128;
+        color: whitesmoke;
+    }
+
+    .navbar-toggler-icon {
+        background-color: whitesmoke;
     }
 
     a {
@@ -230,69 +318,60 @@
         height: auto;
     }
 
- li>.nav-item>.active{
+    li>.nav-item>.active {
         color: #999;
     }
 </style>
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Tabeisa') }}
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+
+
+        <nav class="navbar navbar-expand-lg shadow-sm  fixed-top">
+            <div class="container"> <a class="navbar-brand d-flex align-items-center" href="#">
+
+                    <a class="navbar-brand" href="/">
+                        <span class="ml-3 font-weight-bold">TABEISA</span>
+                    </a>
+                </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <nav class="navbar navbar-expand-lg shadow-sm  fixed-top">
-                    <div class="container"> <a class="navbar-brand d-flex align-items-center" href="#">
 
-                            <a class="navbar-brand" href="/">
-                                <span class="ml-3 font-weight-bold">TABEISA</span>
+                <div class="collapse navbar-collapse" id="navbar4">
+                    <ul class="navbar-nav mr-auto pl-lg-4">
+                        <li class="nav-item {{Request::is ('') ? 'active' : ''}}">
+                            <a class="nav-link" href="/"> <span class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Home</a>
+                        </li>
+                        <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>Services</a> </li>
+                        <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-calendar"></i></span>Event</a> </li>
+
+                        <li class="nav-item px-lg-2 dropdown d-menu">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-caret-square-down"></i></span>About
+                                <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
                             </a>
-                        </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                            <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="/who_are_we">Who we are</a>
+                                <a class="dropdown-item" href="/mission_vision">Mission and vision</a>
+                            </div>
+                        </li>
 
-
-                        <div class="collapse navbar-collapse" id="navbar4">
-                            <ul class="navbar-nav mr-auto pl-lg-4">
-                            <li class="nav-item {{Request::is ('') ? 'active' : ''}}">
-                                    <a class="nav-link" href="/"> <span class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Home</a>
-                                </li>
-                                <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>Services</a> </li>
-                                <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-calendar"></i></span>Event</a> </li>
-
-                                <li class="nav-item px-lg-2 dropdown d-menu">
-                                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-caret-square-down"></i></span>About
-                                        <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                            <polyline points="6 9 12 15 18 9"></polyline>
-                                        </svg>
-                                    </a>
-                                    <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
-                                        <a class="dropdown-item" href="/who_are_we">Who we are</a>
-                                        <a class="dropdown-item" href="/mission_vision">Mission and vision</a>
-                                    </div>
-                                </li>
-
-                                <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-robot"></i></span>Chatbot</a> </li>
-                            </ul>
-                            <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
-                                <li class="nav-item"> <a class="nav-link" href="#">
-                                        <i class="fab fa-facebook"></i><span class="d-lg-none ml-3">Facebook</span>
-                                    </a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#">
-                                        <i class="fab fa-instagram"></i><span class="d-lg-none ml-3">Instagram</span>
-                                    </a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#">
-                                        <i class="fab fa-whatsapp"></i><span class="d-lg-none ml-3">Whatsapp</span>
-                                    </a> </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+                        <!-- <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-robot"></i></span>Chatbot</a> </li> -->
+                    </ul>
+                    <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
+                        <li class="nav-item"> <a class="nav-link" href="#">
+                                <i class="fab fa-facebook"></i><span class="d-lg-none ml-3">Facebook</span>
+                            </a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">
+                                <i class="fab fa-instagram"></i><span class="d-lg-none ml-3">Instagram</span>
+                            </a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#">
+                                <i class="fab fa-whatsapp"></i><span class="d-lg-none ml-3">Whatsapp</span>
+                            </a> </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
@@ -334,10 +413,16 @@
 
                     <ul class="list-unstyled mb-0">
                         <li class="{{Request::is ('contact') ? 'active' : ''}}">
-                            <a href="/" class="text-dark">About Us</a>
+                            <a href="/" class="text-dark">Services</a>
                         </li>
                         <li class="{{Request::is ('contact') ? 'active' : ''}}">
-                            <a href="/contact" class="text-dark">Contact Us</a>
+                            <a href="/" class="text-dark">Event</a>
+                        </li>
+                        <li class="{{Request::is ('contact') ? 'active' : ''}}">
+                            <a href="/" class="text-dark">Who we are</a>
+                        </li>
+                        <li class="{{Request::is ('contact') ? 'active' : ''}}">
+                            <a href="/contact" class="text-dark">Mission and vision</a>
                         </li>
                         <li>
                             <!-- <a href="#!" class="text-dark">T&Cs</a> -->

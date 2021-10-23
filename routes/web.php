@@ -26,7 +26,7 @@ Route::get('/who_are_we', function () {
 });
 
 Route::get('/mission_vision', function () {
-    return view('tabeisa.about');
+    return view('tabeisa.missionsVision');
 });
 
 Auth::routes();
