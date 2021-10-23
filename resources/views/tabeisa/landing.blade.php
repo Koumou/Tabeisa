@@ -3,14 +3,14 @@
 <div class="text-white setting01">
     <div class="container">
         <div class="row py-5">
-            <div class="mx-auto col-lg-5">
+            <div class="mx-auto col-lg-5 align-self-center">
                 <h1 class="display-5 mb-4 ">Tabeisa is here for you!</h1>
                 <p class="lead mb-5">Tabeisa offre un endroit pour se réunir, travailler et boire. L'utilisation intelligente des atmosphères peut non seulement vous aider à attirer plus de clients, mais également à créer un espace dans lequel ils savoureront à la fois leur café et leur expérience dans votre établissement. </p> <a href="#" class="btn btn-lg btn-outline-light mx-1">Take me there</a>
             </div>
 
-            <div class="mx-auto col-lg-6 align-self-center">
+            <div class="mx-auto col-lg-6">
 
-                <img src="https://pngarchive.com/public/uploads/preview/a-cup-of-coffee-11559054650plxwpvy39t.png" alt="coffee" class="borderradius2" style="width: 100%; max-width:100vw;max-height:unset;" alt="...">
+                <img src="https://images.squarespace-cdn.com/content/v1/5c69ca977a1fbd48bc504399/1599525351426-GYHJ8IJ9U1UDY6S6MCJ5/Rushworth.PNG" alt="coffee" class="borderradius2" style="width: 100%; max-width:100vw;max-height:unset;" alt="...">
             </div>
         </div>
     </div>

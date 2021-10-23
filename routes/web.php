@@ -17,6 +17,18 @@ Route::get('/', function () {
     return view('tabeisa.landing');
 });
 
+Route::get('/contact', function () {
+    return view('tabeisa.contact');
+});
+
+Route::get('/who_are_we', function () {
+    return view('tabeisa.about');
+});
+
+Route::get('/mission_vision', function () {
+    return view('tabeisa.about');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

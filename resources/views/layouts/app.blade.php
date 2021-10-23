@@ -27,7 +27,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <style>
-    /*///////////// gallery CSS /////////////*/
+
+    .h1gradient {
+        color: #111;
+        font-family: 'Poppins', sans-serif;
+        /* font-size: 275px; */
+        font-weight: bold;
+        letter-spacing: -1px;
+        line-height: 1;
+        text-align: center;
+        font-size: 85px;
+        background: linear-gradient(to right, #182128 10%, #264a4d 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .linecolorhr_about {
+        background-image: linear-gradient(to right, #182128 60%, whitesmoke);
+        width: 10%;
+        text-align: left;
+        margin-left: 0;
+    }
+
 
     .-fx-image-gal {
         display: flex;
@@ -105,7 +126,7 @@
 
     .mug-redesign {
         color: #fff;
-        background: linear-gradient(to right bottom, #1d3c45 35%, #d2601a 65%);
+        background: linear-gradient(to right bottom, #182128 35%, #264a4d 65%);
         font-size: 50px;
         line-height: 80px;
         height: 95px;
@@ -121,7 +142,7 @@
     }
 
     .setting01 {
-        background: linear-gradient(to right bottom, #1d3c45 35%, #d2601a 65%);
+        background: linear-gradient(to right bottom, #182128 35%, #264a4d 65%);
     }
 
     .serviceBox {
@@ -131,7 +152,7 @@
 
     .serviceBox .service-icon {
         color: #fff;
-        background: linear-gradient(to right bottom, #1d3c45 35%, #d2601a 65%);
+        background: linear-gradient(to right bottom, #182128 35%, #264a4d 65%);
         font-size: 45px;
         line-height: 80px;
         height: 95px;
@@ -163,7 +184,7 @@
     }
 
     .serviceBox.green .service-icon {
-        background: linear-gradient(to right bottom, #1d3c45 35%, #d2601a 65%);
+        background: linear-gradient(to right bottom, #182128 35%, #264a4d 65%);
         background-clip: text;
         -webkit-background-clip: text;
         text-fill-color: transparent;
@@ -171,7 +192,7 @@
     }
 
     .serviceBox.blue .service-icon {
-        background: linear-gradient(to right bottom, #1d3c45 35%, #d2601a 65%);
+        background: linear-gradient(to right bottom, #182128 35%, #264a4d 65%);
         background-clip: text;
         -webkit-background-clip: text;
         text-fill-color: transparent;
@@ -179,7 +200,7 @@
     }
 
     .serviceBox.orange .service-icon {
-        background: linear-gradient(to right bottom, #1d3c45 35%, #d2601a 65%);
+        background: linear-gradient(to right bottom, #182128 35%, #264a4d 65%);
         background-clip: text;
         -webkit-background-clip: text;
         text-fill-color: transparent;
@@ -192,27 +213,43 @@
         }
     }
 
+
+    nav {
+        background-color: #182128;
+    }
+
+    a {
+        color: whitesmoke;
+    }
+
+    a:hover {
+        color: #d6d6d6;
+    }
+
     img {
         height: auto;
+    }
+
+ li>.nav-item>.active{
+        color: #999;
     }
 </style>
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    {{ config('app.name', 'Tabeisa') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-light fixed-top">
+                <nav class="navbar navbar-expand-lg shadow-sm  fixed-top">
                     <div class="container"> <a class="navbar-brand d-flex align-items-center" href="#">
 
                             <a class="navbar-brand" href="/">
-                                <img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1634695090/Tabeisa/tabeisa_coffee_sharpened_and_blurred_USE_THIS_f2tib5.png" alt="" width="56" height="25">
                                 <span class="ml-3 font-weight-bold">TABEISA</span>
                             </a>
                         </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
@@ -222,7 +259,9 @@
 
                         <div class="collapse navbar-collapse" id="navbar4">
                             <ul class="navbar-nav mr-auto pl-lg-4">
-                                <li class="nav-item px-lg-2 active"> <a class="nav-link" href="#"> <span class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Home</a> </li>
+                            <li class="nav-item {{Request::is ('') ? 'active' : ''}}">
+                                    <a class="nav-link" href="/"> <span class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Home</a>
+                                </li>
                                 <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>Services</a> </li>
                                 <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-calendar"></i></span>Event</a> </li>
 
@@ -233,8 +272,8 @@
                                         </svg>
                                     </a>
                                     <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
-                                        <a class="dropdown-item" href="#">Who we are</a>
-                                        <a class="dropdown-item" href="#">Mission and vision</a>
+                                        <a class="dropdown-item" href="/who_are_we">Who we are</a>
+                                        <a class="dropdown-item" href="/mission_vision">Mission and vision</a>
                                     </div>
                                 </li>
 
@@ -262,12 +301,6 @@
         </main>
     </div>
 
-    <!-- Boostratp JS  -->
-
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script> -->
-
     <script>
         $(document).ready(function() {
             if ($(window).width() > 991) {
@@ -281,17 +314,17 @@
     </script>
 
 
-    <footer class="bg-light text-center text-lg-start">
+    <footer class="text-center text-lg-start" style="background-color: #829199;">
         <div class="container p-4">
             <div class="row">
                 <div class="col-lg-6 col-md-12 mb-2">
                     <h5 class="text-uppercase">
-                        <i class="fas fa-mug-hot mug-redesign col d-flex justify-content-center"></i>
+                        <img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1634695090/Tabeisa/tabeisa_coffee_sharpened_and_blurred_USE_THIS_f2tib5.png" alt="" width="120" height="35">
 
                     </h5>
 
                     <p>
-                    We are here for your break.
+                        We are here for your break.
 
                     </p>
                 </div>
@@ -304,7 +337,7 @@
                             <a href="/" class="text-dark">About Us</a>
                         </li>
                         <li class="{{Request::is ('contact') ? 'active' : ''}}">
-                            <a href="/" class="text-dark">Contact Us</a>
+                            <a href="/contact" class="text-dark">Contact Us</a>
                         </li>
                         <li>
                             <!-- <a href="#!" class="text-dark">T&Cs</a> -->
@@ -330,7 +363,7 @@
         <!-- <footer class="text-light text-center text-lg-start" style="background-color: #DADED4;"> -->
 
         <!-- Copyright -->
-        <div class="text-light text-center p-3 " style="background-color: #1d3c45;">
+        <div class="text-light text-center p-3 " style="background-color: #182128;">
             © 2021 Copyright:
             <a class="text-light">tabeisa.co.za</a>
         </div>
