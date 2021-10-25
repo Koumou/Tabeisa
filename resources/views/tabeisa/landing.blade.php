@@ -2,11 +2,11 @@
 @section('content')
 <div class="text-white setting01">
     <div class="container">
-        <div class="row py-5">
-            <div class="mx-auto col-lg-5 align-self-center">
+        <div class="row pt-4">
+            <div class="mx-auto col-lg-5 align-self-center py-5">
                 <h1 class="display-5 mb-4 ">Tabeisa StartUp Cafe</h1>
                 <p class="lead mb-5">“Tabeisa (Technical and Business Education Initiative in South Africa) has launched a Start Up Café at the Cape Peninsula University of Technology to assist aspiring entrepreneurs to start and manage their businesses” – Cape Peninsula University of Technology, 2007.
-                </p> <a href="/contact" class="btn btn-lg btn-outline-light py-2 mx-1">Take me there</a>
+                </p> <a href="/contact" class="btn btn-lg btn-outline-light my-2 mx-1">Take me there</a>
             </div>
 
             <div class="mx-auto col-lg-6">
