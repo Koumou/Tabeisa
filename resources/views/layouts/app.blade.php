@@ -64,15 +64,15 @@
                         </li> -->
 
                         <li class="nav-item px-lg-2 {{Request::is ('contact') ? 'active' : ''}}">
-                            <a class="nav-link" href="/who_are_we"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-clendar"></i></span>Who we are</a>
+                            <a class="nav-link" href="/who_are_we"><span class="d-inline-block d-lg-none icon-width"> </span> we are</a>
                         </li>
 
                         <li class="nav-item px-lg-2 {{Request::is ('contact') ? 'active' : ''}}">
-                            <a class="nav-link" href="/mission_vision"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-clendar"></i></span>Mission and vision</a>
+                            <a class="nav-link" href="/mission_vision"><span class="d-inline-block d-lg-none icon-width"></span> and vision</a>
                         </li>
 
                         <li class="nav-item px-lg-2 {{Request::is ('contact') ? 'active' : ''}}">
-                            <a class="nav-link" href="/contact"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-caendar"></i></span>Contact</a>
+                            <a class="nav-link" href="/contact"><span class="d-inline-block d-lg-none icon-width"></span>Contact</a>
                         </li>
 
                         <!-- <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-robot"></i></span>Chatbot</a> </li> -->
