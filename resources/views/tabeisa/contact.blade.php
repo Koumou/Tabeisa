@@ -25,7 +25,7 @@
                         </div>
                         <div class="contact-info-text">
                             <h2>Wording Hours</h2>
-                            <span>Mon - Friday 9:00 am - 4:00 pm</span>
+                            <span>Mon - Fri 9:00 am - 4:00 pm</span>
                         </div>
                     </div>
                 </div>
