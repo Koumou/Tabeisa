@@ -343,9 +343,7 @@
                         <li class="nav-item {{Request::is ('') ? 'active' : ''}}">
                             <a class="nav-link" href="/"> <span class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Home</a>
                         </li>
-                        <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>Services</a> </li>
-                        <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-calendar"></i></span>Event</a> </li>
-
+                        <!-- <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>Services</a> </li> -->
                         <li class="nav-item px-lg-2 dropdown d-menu">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-caret-square-down"></i></span>About
                                 <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -357,8 +355,10 @@
                                 <a class="dropdown-item" href="/mission_vision">Mission and vision</a>
                             </div>
                         </li>
+                        <li class="nav-item px-lg-2"> <a class="nav-link" href="/contact"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-calendar"></i></span>Contact</a> </li>
 
                         <!-- <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-robot"></i></span>Chatbot</a> </li> -->
+
                     </ul>
                     <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
                         <li class="nav-item"> <a class="nav-link" href="#">

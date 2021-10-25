@@ -5,7 +5,7 @@
         <div class="row py-5">
             <div class="mx-auto col-lg-5 align-self-center">
                 <h1 class="display-5 mb-4 ">Tabeisa is here for you!</h1>
-                <p class="lead mb-5">Tabeisa offre un endroit pour se réunir, travailler et boire. L'utilisation intelligente des atmosphères peut non seulement vous aider à attirer plus de clients, mais également à créer un espace dans lequel ils savoureront à la fois leur café et leur expérience dans votre établissement. </p> <a href="#" class="btn btn-lg btn-outline-light mx-1">Take me there</a>
+                <p class="lead mb-5">Tabeisa offre un endroit pour se réunir, travailler et boire. L'utilisation intelligente des atmosphères peut non seulement vous aider à attirer plus de clients, mais également à créer un espace dans lequel ils savoureront à la fois leur café et leur expérience dans votre établissement. </p> <a href="/contact" class="btn btn-lg btn-outline-light mx-1">Take me there</a>
             </div>
 
             <div class="mx-auto col-lg-6">
@@ -103,19 +103,19 @@
     <div class="-fx-image-gal py-4">
         <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
-                    <img src="https://media.gq-magazine.co.uk/photos/5e8352568714920008e10d5b/4:3/w_1440,h_1080,c_limit/20200331-coffee-05.jpg" />
+                <img src="https://media.gq-magazine.co.uk/photos/5e8352568714920008e10d5b/4:3/w_1440,h_1080,c_limit/20200331-coffee-05.jpg" />
             </div>
         </div><!-- /-fx-gal-item -->
 
         <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
-                    <img src="https://london-tv.co.uk/wp-content/uploads/2020/08/coffee-tea-drink.jpg" />
+                <img src="https://london-tv.co.uk/wp-content/uploads/2020/08/coffee-tea-drink.jpg" />
             </div>
         </div><!-- /-fx-gal-item -->
 
         <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
-                    <img src="https://byolife.co.zw/wp-content/uploads/2020/09/Hillside-Hideout-Cafe_01.jpg" />
+                <img src="https://byolife.co.zw/wp-content/uploads/2020/09/Hillside-Hideout-Cafe_01.jpg" />
             </div>
         </div><!-- /-fx-gal-item -->
 
@@ -145,7 +145,14 @@
         <!-- /-fx-gal-item -->
     </div><!-- /gallery -->
 
-    <div class="row">
+    <div class="col-lg-12 py-4">
+        <center>
+            <h4>Our services</h4>
+            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum, Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum</p>
+        </center>
+    </div>
+    <div class="row pb-4">
+
         <div class="col-md-3 col-sm-6">
             <div class="serviceBox">
                 <div class="service-content">
