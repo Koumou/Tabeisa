@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
 * {
     transition: transform .4s ease-in-out;
     transition: all .2s;
+    font-family: 'Poppins', sans-serif;
 }
 
 .h1gradient {
