@@ -4,8 +4,9 @@
     <div class="container">
         <div class="row py-5">
             <div class="mx-auto col-lg-5 align-self-center">
-                <h1 class="display-5 mb-4 ">Tabeisa is here for you!</h1>
-                <p class="lead mb-5">Tabeisa offre un endroit pour se réunir, travailler et boire. L'utilisation intelligente des atmosphères peut non seulement vous aider à attirer plus de clients, mais également à créer un espace dans lequel ils savoureront à la fois leur café et leur expérience dans votre établissement. </p> <a href="/contact" class="btn btn-lg btn-outline-light mx-1">Take me there</a>
+                <h1 class="display-5 mb-4 ">Tabeisa StartUp Cafe</h1>
+                <p class="lead mb-5">“Tabeisa (Technical and Business Education Initiative in South Africa) has launched a Start Up Café at the Cape Peninsula University of Technology to assist aspiring entrepreneurs to start and manage their businesses” – Cape Peninsula University of Technology, 2007.
+                </p> <a href="/contact" class="btn btn-lg btn-outline-light mx-1">Take me there</a>
             </div>
 
             <div class="mx-auto col-lg-6">
@@ -22,10 +23,10 @@
             <i class="fas fa-mug-hot mug-redesign col d-flex justify-content-center" style="font-size:38px;color:#d2601a;"></i>
         </div>
         <div class="col justify-content-center">
-            <h3 class="text-center" style="font-size:x-large;"><b>Tabeisa for your break</b></h3>
+            <h3 class="text-center" style="font-size:x-large;"><b>Tabeisa for your breakfast</b></h3>
 
             <p class="text-center" style="font-size: medium;">
-                Tabeisa offre un endroit pour se réunir, travailler et boire. L'utilisation intelligente des atmosphères peut non seulement vous aider à attirer plus de clients, mais également à créer un espace dans lequel ils savoureront à la fois leur café et leur expérience dans votre établissement.
+                Tabeisa Start UP Café is a platform where the CPUT community can learn entrepreneurial skills and start their entrepreneurial journey by opening their own businesses or projects and be able to maintain them through the different project life cycle
         </div>
     </center>
 
@@ -42,19 +43,15 @@
         <div class="col-lg  align-self-center ">
             <!-- <h1 class="textformat gradient-text">Card title</h1> -->
             <h3 class="pt-3">What are you waiting for?</h3>
-
-            <p>Let us help you to have a delicious lunch!</p>
-            <small>For you Breakfast or Super Ingredients</small>
+            <p>For your lunch with tabeisa</p>
             <ul>
                 <ol>2 egg whites</ol>
                 <ol>1 avocado</ol>
                 <ol>2 Sausages</ol>
                 <ol>Mushrooms</ol>
                 <ol>Tomatoes</ol>
-                <ol>Mix migrogreens from Tabeisa</ol>
             </ul>
-            Order your microgreens with Tabeisa to accompagne your Breakfast or Supper.
-            Click <a href="https://wa.me/27762378714" class="a-information-index"><b> here </b></a>to start Whatsapp your odrer!</p>
+            Click <a href="https://wa.me/27762378714" class="a-information-index text-dark"><b> here </b></a>to start Whatsapp your odrer!</p>
 
         </div>
     </div>
@@ -103,99 +100,74 @@
     <div class="-fx-image-gal py-4">
         <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
-                <img src="https://media.gq-magazine.co.uk/photos/5e8352568714920008e10d5b/4:3/w_1440,h_1080,c_limit/20200331-coffee-05.jpg" />
+                <img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1635149299/Tabeisa/346_508279383_s6laix.jpg" />
             </div>
         </div><!-- /-fx-gal-item -->
 
         <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
-                <img src="https://london-tv.co.uk/wp-content/uploads/2020/08/coffee-tea-drink.jpg" />
+                <img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1635149299/Tabeisa/346_508279389_yr2e7n.jpg" />
             </div>
         </div><!-- /-fx-gal-item -->
 
         <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
-                <img src="https://byolife.co.zw/wp-content/uploads/2020/09/Hillside-Hideout-Cafe_01.jpg" />
-            </div>
-        </div><!-- /-fx-gal-item -->
-
-        <!-- <div class="-fx-gal-item">
-            <div class="-fx-gal-image-thumb" tabindex="1">
-                <a href="https://codepen.io/aledebarba" target="_blank">
-                    <img src="https://picsum.photos/id/240/300/300" />
-                </a>
+                <img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1635149896/Tabeisa/ewtw_vxnj3m.jpg" />
             </div>
         </div>
+        <div class="-fx-gal-item">
+            <div class="-fx-gal-image-thumb" tabindex="1">
+                <img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1635149299/Tabeisa/346_508279389_yr2e7n.jpg" />
+            </div>
+        </div><!-- /-fx-gal-item -->
+        <div class="-fx-gal-item">
+            <div class="-fx-gal-image-thumb" tabindex="1">
+                <img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1635149299/Tabeisa/346_508279383_s6laix.jpg" />
+            </div>
+        </div><!-- /-fx-gal-item -->
 
         <div class="-fx-gal-item">
             <div class="-fx-gal-image-thumb" tabindex="1">
-                <a href="https://codepen.io/aledebarba" target="_blank">
-                    <img src="https://picsum.photos/id/341/300/300" />
-                </a>
+                <img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1635149896/Tabeisa/ewtw_vxnj3m.jpg" />
             </div>
         </div>
+    </div>
 
-        <div class="-fx-gal-item">
-            <div class="-fx-gal-image-thumb" tabindex="1">
-                <a href="https://codepen.io/aledebarba" target="_blank">
-                    <img src="https://picsum.photos/id/142/300/300" />
-                </a>
-            </div>
-        </div> -->
-        <!-- /-fx-gal-item -->
-    </div><!-- /gallery -->
+
 
     <div class="col-lg-12 py-4">
         <center>
             <h4>Our services</h4>
-            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum, Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum</p>
         </center>
     </div>
     <div class="row pb-4">
 
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-6 col-sm-6">
             <div class="serviceBox">
                 <div class="service-content">
                     <div class="service-icon">
-                        <span><i class="fa fa-leaf"></i></span>
+                        <span><i class="fas fa-briefcase"></i></span>
                     </div>
                 </div>
-                <p class="description">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.</p>
+                <p class="description">
+                    Training on understanding of the industry in which candidates wish to establish a new venture
+                    by matching new venture opportunities to market needs.
+                </p>
             </div>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-6 col-sm-6">
             <div class="serviceBox purple">
                 <div class="service-content">
                     <div class="service-icon">
-                        <span><i class="fa fa-coffee"></i></span>
+                        <span><i class="fas fa-hands-helping"></i></span>
                     </div>
                 </div>
-                <p class="description">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.</p>
-            </div>
-        </div>
-
-        <div class="col-md-3 col-sm-6">
-            <div class="serviceBox purple">
-                <div class="service-content">
-                    <div class="service-icon">
-                        <span><i class="fa fa-mug-hot"></i></span>
-                    </div>
-                </div>
-                <p class="description">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.</p>
+                <p class="description">
+                    Supporting SMME's with managing cashflow, budgeting and other basic accounting activties from a seasoned Mentor</p>
             </div>
         </div>
 
 
-        <div class="col-md-3 col-sm-6">
-            <div class="serviceBox purple">
-                <div class="service-content">
-                    <div class="service-icon">
-                        <span><i class="fas fa-hamburger"></i></span>
-                    </div>
-                </div>
-                <p class="description">Lorem ipsum dolor sit amet conse ctetur adipisicing elit. Qui quaerat fugit quas veniam perferendis repudiandae sequi, dolore quisquam illum.</p>
-            </div>
-        </div>
 
     </div>
 

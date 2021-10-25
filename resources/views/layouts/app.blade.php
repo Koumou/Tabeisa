@@ -27,6 +27,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <style>
+    * {
+        transition: transform .4s ease-in-out;
+        transition: all .2s;
+    }
+
     .h1gradient {
         color: #111;
         font-family: 'Poppins', sans-serif;
@@ -55,7 +60,7 @@
         flex-wrap: wrap;
         margin: 0 auto;
         width: 100%;
-        max-width: 960px;
+        max-width: 1200px;
         justify-content: center;
     }
 
@@ -75,11 +80,11 @@
     }
 
     .-fx-gal-image-thumb img {
-        width: 100%;
+        width: 99%;
         cursor: pointer;
-        -webkit-filter: grayscale(100%);
-        -moz-filter: grayscale(100%);
-        filter: grayscale(100%);
+        /* -webkit-filter: grayscale(100%); */
+        /* -moz-filter: grayscale(100%); */
+        /* filter: grayscale(100%); */
         transform: scale(1.1);
         transition: all 0.5s ease;
     }
@@ -228,6 +233,10 @@
         background: linear-gradient(to right bottom, #182128 35%, #264a4d 65%);
     }
 
+    .setting02 {
+        background: linear-gradient(to right bottom, #182128 35%, #264a4d 65%);
+    }
+
     .serviceBox {
         font-family: 'Poppins', sans-serif;
         text-align: center;
@@ -310,8 +319,13 @@
         color: whitesmoke;
     }
 
-    a:hover {
-        color: #d6d6d6;
+    a:hover,
+    a:active {
+        color: #C8CDD1;
+    }
+
+    .active {
+        color: black;
     }
 
     img {
@@ -320,6 +334,240 @@
 
     li>.nav-item>.active {
         color: #999;
+    }
+
+    /* 
+    section {
+            padding: 60px 0;
+            min-height: 100vh;
+        } */
+    .contact-info {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contact-info-icon {
+        margin-bottom: 15px;
+    }
+
+    .contact-page-sec .contact-page-form h2 {
+        color: #071c34;
+        text-transform: capitalize;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .contact-page-form .col-md-6.col-sm-6.col-xs-12 {
+        padding-left: 0;
+    }
+
+    .contact-page-form.contact-form input {
+        margin-bottom: 5px;
+    }
+
+    .contact-page-form.contact-form textarea {
+        height: 110px;
+    }
+
+    .contact-page-form.contact-form input[type="submit"] {
+        background: #071c34;
+        width: 150px;
+        border-color: #071c34;
+    }
+
+    /* modify */
+    .contact-info-icon i {
+        font-size: 48px;
+        color: #D1B48C;
+    }
+
+    .contact-page-map {
+        border-radius: 25px;
+    }
+
+    .contact-info-item {
+        border-radius: 25px;
+        background: #182128;
+        padding: 30px 0px;
+    }
+
+    .contact-info-text p {
+        margin-bottom: 0px;
+    }
+
+    .contact-info-text h2 {
+        color: #fff;
+        font-size: 22px;
+        text-transform: capitalize;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .contact-info-text span {
+        color: #999999;
+        font-size: 16px;
+        font-weight: ;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .contact-page-form input {
+        background: #f9f9f9 none repeat scroll 0 0;
+        border: 1px solid #f9f9f9;
+        margin-bottom: 20px;
+        padding: 12px 16px;
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .contact-page-form .message-input {
+        display: inline-block;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .single-input-field textarea {
+        background: #f9f9f9 none repeat scroll 0 0;
+        border: 1px solid #f9f9f9;
+        width: 100%;
+        height: 120px;
+        padding: 12px 16px;
+        border-radius: 4px;
+    }
+
+    .single-input-fieldsbtn input[type="submit"] {
+        background: #fda40b none repeat scroll 0 0;
+        color: #fff;
+        display: inline-block;
+        font-weight: 600;
+        padding: 10px 0;
+        text-transform: capitalize;
+        width: 150px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .single-input-fieldsbtn input[type="submit"]:hover {
+        background: #071c34;
+        transition: all 0.4s ease-in-out 0s;
+        border-color: #071c34
+    }
+
+    .single-input-field h4 {
+        color: #464646;
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    .contact-page-form {
+        display: inline-block;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .contact-page-map {
+        margin-top: 36px;
+    }
+
+    .contact-page-form form {
+        padding: 20px 15px 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    /* .navbar-nav>li>.dropdown-menu a:link, */
+    .navbar-nav>li>.dropdown-menu a:hover {
+        background-color: #C8CDD1;
+    }
+
+    .contact-area {
+        border-bottom: 1px solid #353C46;
+    }
+
+    .contact-content p {
+        font-size: 15px;
+        margin: 10px 0 30px;
+        position: relative;
+    }
+
+    .contact-content p::after {
+        background: #353C46;
+        bottom: -20px;
+        content: "";
+        height: 1px;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%);
+        width: 60%;
+    }
+
+    .contact-content h6 {
+        color: #8b9199;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .contact-content span {
+        color: #353c47;
+        margin: 0 10px;
+    }
+
+    .contact-social {
+        margin-top: 10px;
+    }
+
+    .contact-social>ul {
+        display: inline-flex;
+    }
+
+    .contact-social ul li a {
+        border: 1px solid #8b9199;
+        color: #8b9199;
+        display: inline-block;
+        height: 20px;
+        margin: 0 8px;
+        padding-top: 7px;
+        transition: all 0.4s ease 0s;
+        width: 20px;
+    }
+
+    .contact-social ul li a:hover {
+        border: 1px solid #FAB702;
+        color: #FAB702;
+    }
+
+    .contact-content img {
+        max-width: 210px;
+    }
+
+    section,
+    footer {
+        background: #1A1E25;
+        color: #868c96;
+    }
+
+    footer p {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .fa-bars {
+        color: whitesmoke;
     }
 </style>
 
@@ -334,9 +582,8 @@
                         <span class="ml-3 font-weight-bold">TABEISA</span>
                     </a>
                 </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-bars"></i>
                 </button>
-
 
                 <div class="collapse navbar-collapse" id="navbar4">
                     <ul class="navbar-nav mr-auto pl-lg-4">
@@ -344,6 +591,7 @@
                             <a class="nav-link" href="/"> <span class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Home</a>
                         </li>
                         <!-- <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>Services</a> </li> -->
+
                         <li class="nav-item px-lg-2 dropdown d-menu">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-caret-square-down"></i></span>About
                                 <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -355,7 +603,11 @@
                                 <a class="dropdown-item" href="/mission_vision">Mission and vision</a>
                             </div>
                         </li>
-                        <li class="nav-item px-lg-2"> <a class="nav-link" href="/contact"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-calendar"></i></span>Contact</a> </li>
+
+
+                        <li class="nav-item px-lg-2 {{Request::is ('contact') ? 'active' : ''}}">
+                            <a class="nav-link" href="/contact"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-calendar"></i></span>Contact</a>
+                        </li>
 
                         <!-- <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-robot"></i></span>Chatbot</a> </li> -->
 
@@ -375,10 +627,11 @@
             </div>
         </nav>
 
-        <main class="">
+        <main>
             @yield('content')
         </main>
     </div>
+
 
     <script>
         $(document).ready(function() {
@@ -393,66 +646,40 @@
     </script>
 
 
-    <footer class="text-center text-lg-start" style="background-color: #829199;">
-        <div class="container p-4">
+    <section class="contact-area" id="contact">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 mb-2">
-                    <h5 class="text-uppercase">
-                        <img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1634695090/Tabeisa/tabeisa_coffee_sharpened_and_blurred_USE_THIS_f2tib5.png" alt="" width="120" height="35">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="contact-content text-center">
+                        <a href="#"><img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1635155681/Tabeisa/tabeisa_coffee_sharpened_and_blurred_white_wlfcjy.png" alt="logo"></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
+                        <div class="hr"></div>
+                        <h6>CPUT Bellville Campus,
+                            Bellvile South Industrial</span>
+                            Cape Town, 7530</h6>
 
-                    </h5>
-
-                    <p>
-                        We are here for your break.
-
-                    </p>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mt-4 mb-4 mb-md-0 ">
-                    <h5 class="text-uppercase">Tabeisa Links</h5>
-
-                    <ul class="list-unstyled mb-0">
-                        <li class="{{Request::is ('contact') ? 'active' : ''}}">
-                            <a href="/" class="text-dark">Services</a>
-                        </li>
-                        <li class="{{Request::is ('contact') ? 'active' : ''}}">
-                            <a href="/" class="text-dark">Event</a>
-                        </li>
-                        <li class="{{Request::is ('contact') ? 'active' : ''}}">
-                            <a href="/" class="text-dark">Who we are</a>
-                        </li>
-                        <li class="{{Request::is ('contact') ? 'active' : ''}}">
-                            <a href="/contact" class="text-dark">Mission and vision</a>
-                        </li>
-                        <li>
-                            <!-- <a href="#!" class="text-dark">T&Cs</a> -->
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-6 mt-4 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Follow us</h5>
-                    <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
-                        <li class="nav-item"> <a class="nav-link" href="#">
-                                <i class="fab fa-facebook"></i><span class="d-lg-none ml-3">Facebook</span>
-                            </a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#">
-                                <i class="fab fa-instagram"></i><span class="d-lg-none ml-3">Instagram</span>
-                            </a> </li>
-                    </ul>
-
+                        <p><i class="fa fa-phone"></i> 021 959 6911</p>
+                        <div>
+                            <ul class="navbar-nav ml-auto mt-3 mt-lg-0">
+                                <li> <a href="#">
+                                        <i class="fab fa-facebook"></i><span class=" ml-3">Facebook</span>
+                                    </a> <a href="#">
+                                        <i class="fab fa-instagram"></i><span class=" ml-3">Instagram</span>
+                                    </a> <a href="#">
+                                        <i class="fab fa-whatsapp"></i><span class=" ml-3">Whatsapp</span>
+                                    </a> </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- <i class='fas fa-arrow-alt-circle-up float-right pointerscrollup' onclick="scrollToTop()" style='font-size:38px;color:#DADED4'></i> -->
         </div>
-        <!-- <footer class="text-light text-center text-lg-start" style="background-color: #DADED4;"> -->
-
-        <!-- Copyright -->
-        <div class="text-light text-center p-3 " style="background-color: #182128;">
-            © 2021 Copyright:
-            <a class="text-light">tabeisa.co.za</a>
-        </div>
-        <!-- Copyright -->
+    </section>
+    <!-- =============== 1.9 Contact Area End ====================-->
+    <!-- =============== 1.9 Footer Area Start ====================-->
+    <footer class="text-light">
+        <p> © {{ now()->year }} Copyright: <a href="http://e-kelasi.herokuapp.com/">Tabeisa</a>
+            All Rights Reserved.</p>
     </footer>
 </body>
 

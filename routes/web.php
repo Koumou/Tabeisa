@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::fallback(function () {
+    return view('tabeisa.404');
+});
+
 Route::get('/', function () {
     return view('tabeisa.landing');
 });
@@ -29,6 +33,6 @@ Route::get('/mission_vision', function () {
     return view('tabeisa.missionsVision');
 });
 
-Auth::routes();
+// Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

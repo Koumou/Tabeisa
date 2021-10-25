@@ -20,27 +20,19 @@
             <div class="linecolorhr_about ">
                 <hr class="linehr_about">
             </div>
-            La caféine qu'il contient stimule la vigilance, et atténue la sensation de fatigue. C'est pour cela que le café du matin est irremplaçable pour nombre d'entre nous ! Il optimise également la concentration et les réflexes, et améliore la vision. La caféine qu'il contient stimule la vigilance, et atténue la sensation de fatigue. C'est pour cela que le café du matin est irremplaçable pour nombre d'entre nous ! Il optimise également la concentration et les réflexes, et améliore la vision.
+            Tabeisa Start UP Café is a platform where the CPUT community can learn entrepreneurial skills and start their entrepreneurial journey by opening their own businesses or projects and be able to maintain them through the different project life cycle.
         </div>
     </div>
     <br />
 
     <!-- ceo -->
     <div class="pt-5">
-        <h3 class="pt-4"><b>History</b></h3>
+        <h3><b>History</b></h3>
     </div>
 
     <div class="row flex-row-reverse pb-4">
-        <div class="col-lg-6">
-            <h3><b class="borderright pl-2"></b></h3>
-            image
-        </div>
-        <div class="col-lg-6 pt-2">
-            La caféine qu'il contient stimule la vigilance, et atténue la sensation de fatigue. C'est pour cela que le café du matin est irremplaçable pour nombre d'entre nous ! Il optimise également la concentration et les réflexes, et améliore la vision.
-            La caféine qu'il contient stimule la vigilance, et atténue la sensation de fatigue. C'est pour cela que le café du matin est irremplaçable pour nombre d'entre nous ! Il optimise également la concentration et les réflexes, et améliore la vision.
-            La caféine qu'il contient stimule la vigilance, et atténue la sensation de fatigue. C'est pour cela que le café du matin est irremplaçable pour nombre d'entre nous ! Il optimise également la concentration et les réflexes, et améliore la vision.
-            La caféine qu'il contient stimule la vigilance, et atténue la sensation de fatigue. C'est pour cela que le café du matin est irremplaçable pour nombre d'entre nous ! Il optimise également la concentration et les réflexes, et améliore la vision.
-
+        <div class="col-lg-12 pt-2">
+            “Tabeisa (Technical and Business Education Initiative in South Africa) has launched a Start Up Café at the Cape Peninsula University of Technology to assist aspiring entrepreneurs to start and manage their businesses” – Cape Peninsula University of Technology, 2007.
         </div>
     </div>
 
